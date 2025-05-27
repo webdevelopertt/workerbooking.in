@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Register Here</title>
+		<style>
+		table:hover{
+		background-color:yellow;
+		}
+		tr:nth-child(odd)
+		{
+			background-color:pink;
+		}
+		</style>
+	</head>
+	<body>
+	
+	<h1 align="center">Register Form For woerker</h1>
+	<table border="1" style="border-collapse:collapse;" align="center" >
+	<form action="xyz.html" method="post">
+		
+		<hr/>
+		<fieldset>
+	<tr>	<!-- this no is for application form-->
+		<td>GENERAL INFORMATION:</td><td><input type="text" value="ABOUT YOURS" disabled></td>
+	</tr>
+	<tr>
+		<td>Name:</td> <td><input type="text" name="name" placeholder="Enter Name" maxlength="10" required ></td>
+	</tr>
+		<tr>
+		<td>Profession:</td><td><input type="text" name="mname" placeholder="Enter Your Profession" required></td></tr>
+		<tr>
+		<td>Mobile No:</td><td><input type="number" name="phone" placeholder="Mobile No" ></td>
+		</tr>
+		<tr>
+		 <td>Email:</td><td><input type="email" name="email" placeholder="Enter Email"></td>
+		</tr>
+		<tr>
+			<td>Password:</td><td><input type="password" name="pass" placeholder="Enter password"></td>
+		</tr>
+		<tr>
+			<td>Dob:</td><td><input type="date"></td>
+		</tr>
+		<tr>
+			<td>I agree the Terms and Condition.</td>
+		<td><input type="checkbox" checked /></td>
+		</tr>
+		<tr>
+		<td>Gender:</td><td><input type="radio" name="gender" value="male" checked>male <input type="radio"  name="gender" value="female">female</td>
+		</tr>
+		<tr>
+		<td>Address:</td><td><textarea placeholder="Enter your Address" rows="10" cols="20" style="resize:none;"></textarea></td>
+		</tr>
+		<tr>
+		<td>Upload Your Pic:</td><td><input type="file" name="pic"></td>
+		</tr>
+		<tr>
+		<td>Upload your Signature:</td><td><input type="file" name="sign"></td>
+		</tr>
+		<tr>
+		<td>Select your City:</td>
+		<td>
+			<select>
+				<option value="">--select--</option>
+				<option value="faizabad">faizabad</option>
+				<option value="Agra">Agra</option>
+				<option value="Allahabad">Allahabad</option>
+				<option value="bhadohi">bhadohi</option>
+				<option value="other">other</option>
+			</select>
+		</td>
+		</tr>
+		<tr>
+		<td></td>
+		<td><input type="button" value="abc"/></td>
+		</tr>
+		<tr>
+		<td></td>
+		<td>
+		<input type="submit" value="register"><br/>
+		<input type="submit" value="Login"></br>
+		<input type="reset">
+		</td>
+		</tr>
+		</fieldset>
+		
+	</form>
+	</table>
+	
+	</body>
+</html>
